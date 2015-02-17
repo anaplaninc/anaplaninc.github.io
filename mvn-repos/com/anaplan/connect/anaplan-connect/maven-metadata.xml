@@ -3,11 +3,11 @@
   <groupId>com.anaplan.connect</groupId>
   <artifactId>anaplan-connect</artifactId>
   <versioning>
-    <latest>1.3.4</latest>
-    <release>1.3.4</release>
+    <latest>1-3-4-dev</latest>
+    <release>1-3-4-dev</release>
     <versions>
       <version>1.0</version>
-      <version>1.3.4</version>
+      <version>1-3-4-dev</version>
     </versions>
     <lastUpdated>20150216191903</lastUpdated>
   </versioning>
