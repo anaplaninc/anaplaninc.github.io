@@ -165,13 +165,19 @@
                 <version>${github.maven.plugin.version}</version>
                 <configuration>
                     <server>${github.global.server}</server>
-                    <message>Maven artifacts for ${project.version}</message>               <!-- git commit message -->
-                    <noJekyll>true</noJekyll>                                               <!-- disable webpage processing -->
-                    <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>  <!-- matches distribution management repository url above -->
-                    <branch>refs/heads/mvn-repo-ac</branch>                                 <!-- remote branch name -->
+                    <!-- git commit message -->
+                    <message>Maven artifacts for ${project.version}</message>
+                    <!-- disable webpage processing -->
+                    <noJekyll>true</noJekyll>
+                    <!-- matches distribution management repository url above -->
+                    <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
+                    <!-- remote branch name -->
+                    <branch>refs/heads/mvn-repo-ac</branch>
                     <includes><include>**/*</include></includes>
-                    <repositoryName>anaplaninc.github.io</repositoryName>                   <!-- github repo name -->
-                    <repositoryOwner>anaplaninc</repositoryOwner>                           <!-- github username  -->
+                    <!-- github repo name -->
+                    <repositoryName>anaplaninc.github.io</repositoryName>
+                    <!-- github username  -->
+                    <repositoryOwner>anaplaninc</repositoryOwner>
                 </configuration>
                 <executions>
                     <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
