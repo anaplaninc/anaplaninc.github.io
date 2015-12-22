@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.anaplan.client</groupId>
+  <artifactId>anaplan-connect</artifactId>
+  <version>1.3.6-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20151222.052950</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20151222052950</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.3.6-20151222.052950-1</value>
+        <updated>20151222052950</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.3.6-20151222.052950-1</value>
+        <updated>20151222052950</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>jar-with-dependencies</classifier>
+        <extension>jar</extension>
+        <value>1.3.6-20151222.052950-1</value>
+        <updated>20151222052950</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
