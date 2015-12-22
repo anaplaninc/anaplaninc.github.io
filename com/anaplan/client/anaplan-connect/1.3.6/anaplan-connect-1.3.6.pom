@@ -182,7 +182,7 @@
                 <configuration>
                     <server>${github.global.server}</server>
                     <!-- git commit message -->
-                    <message>Maven artifacts for ${project.version} @ ${maven.build.timestamp}</message>
+                    <message>Maven artifacts for ${project.version} built on ${maven.build.timestamp}</message>
                     <!-- disable webpage processing -->
                     <noJekyll>true</noJekyll>
                     <!-- matches distribution management repository url above -->
