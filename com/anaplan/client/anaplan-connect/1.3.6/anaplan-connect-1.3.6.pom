@@ -29,6 +29,7 @@
         <org.apache.httpcomponents.httpmime.version>4.5.1</org.apache.httpcomponents.httpmime.version>
         <org.apache.httpcomponents.fluent-hc.version>4.5.1</org.apache.httpcomponents.fluent-hc.version>
         <maven.deploy.plugin.version>2.8.1</maven.deploy.plugin.version>
+        <maven.build.timestamp.format>MMM dd, yyyy @ KK:mm:ss a (z)</maven.build.timestamp.format>
         <github.maven.plugin.version>0.11</github.maven.plugin.version>
     </properties>
 
