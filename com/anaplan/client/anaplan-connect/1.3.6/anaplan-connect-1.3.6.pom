@@ -31,6 +31,7 @@
         <maven.deploy.plugin.version>2.8.1</maven.deploy.plugin.version>
         <maven.build.timestamp.format>MMM dd, yyyy @ KK:mm:ss a (z)</maven.build.timestamp.format>
         <github.maven.plugin.version>0.11</github.maven.plugin.version>
+        <maven.javadoc.plugin.version>2.10.3</maven.javadoc.plugin.version>
     </properties>
 
     <dependencies>
@@ -205,6 +206,12 @@
                         <phase>deploy</phase>
                     </execution>
                 </executions>
+            </plugin>
+            <!-- Maven Javadoc plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>${maven.javadoc.plugin.version}</version>
             </plugin>
 
         </plugins>
